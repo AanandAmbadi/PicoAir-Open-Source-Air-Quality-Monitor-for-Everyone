@@ -1,0 +1,11 @@
+The PicoAir enclosure was designed in OnShape and measures 90 × 60 × 65mm — roughly the size of a small speaker, compact enough for any desk.
+
+Key design decisions:
+
+Two hexagonal mesh grilles on the front face allow proper airflow to both the MQ135 and DHT22 sensors
+A 0.96 inch OLED window at the top displays live readings
+An RGB LED diffuser hole sits center front for the air quality color indicator
+Rear vent slots allow heat from the MQ135 internal heater to escape
+A 10 degree angled base tilts the face toward the user for easy reading
+Single USB cable powers everything — no separate power supply needed
+Download the STL file attached to this step and print it in PLA at 0.2mm layer height with 20% infill.
