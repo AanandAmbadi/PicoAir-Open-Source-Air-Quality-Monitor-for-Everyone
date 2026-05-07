@@ -1,0 +1,27 @@
+onnect everything as follows:
+
+MQ135 sensor:
+
+VCC → VBUS pin (Pin 40) — needs full 5V
+GND → Any GND pin
+AOUT → GP26
+DHT22 sensor:
+
+VCC → 3.3V pin (Pin 36)
+GND → Any GND pin
+DATA → GP15
+OLED display:
+
+VCC → 3.3V pin
+GND → Any GND pin
+SDA → GP4
+SCL → GP5
+RGB LED:
+
+Red → GP10
+Green → GP11
+Blue → GP12
+GND → Any GND pin
+Important: Always connect MQ135 to VBUS not 3.3V. The MQ135 needs 5V to run its internal heater correctly. Connecting it to 3.3V will give wrong readings.
+
+check out the image for finding the GPIO pins of Raspberry PI PICO
